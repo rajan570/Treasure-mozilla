@@ -1,0 +1,1227 @@
+.desktop{
+    display: visible;
+}
+
+.mobile{
+    display: none;
+}
+
+.hero-background {
+    background-image: url('../assets/0fa650ebbe47aa5e4044108eb521dac4.gif');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 200vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-image{
+    height: 120px;
+    width: 120px;
+}
+
+.hero-wrapper{
+    height: 140vh;
+}
+
+.main-content {
+    display: flex;
+    height: 100%;
+}
+
+.image-container {
+    flex: 3; /* Takes 3/4 of the screen */
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.content-container {
+    flex: 1; /* Takes 1/4 of the screen */
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.anton-heading {
+    font-family: 'Anton', sans-serif;
+    font-size: 168px;
+    font-weight: 900;
+    line-height: 168px;
+    text-align: start;
+    color: white;
+}
+
+.anton-text {
+    padding: 0px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: start;
+    color: white;
+    margin: 0;
+    padding: 0px;
+}
+.anton-button{
+    margin-top: 20px;
+    text-decoration: line-through;
+    width: 180px;
+    height: 60px;
+    font-size: 19.2px;
+    line-height: 28.8px;
+    color: white !important;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.anton-text+.anton-text {
+    margin-top: -25px;
+}
+
+.about-section{
+    height: 130vh;
+    background-color: white;
+    margin-top: -90px;
+    padding: 20px 30px;
+}
+
+.background-text{
+    font-size: 288px;
+    line-height: normal;
+    letter-spacing: 9.6px;
+    text-align: start;
+    color : #e7e7e7;
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: -200px;
+    /* font-family:'Times New Roman', Times, serif; */
+}
+
+.background-covertext{
+    color: black;
+    font-family: 'Anton' , sans-serif;
+    letter-spacing: -3px;
+    font-size: 76.8px;
+    margin-left: 40px;
+}
+
+.background-covertext+.background-covertext {
+    margin-top: -45px;
+}
+
+.rules-section{
+    height: auto;
+    background-color: black;
+}
+
+.rules-text{
+    font-size: 400px;
+    line-height: 400px;
+    text-align: center;
+    color: #ffffff29;
+}
+
+.rules-covertext{
+    color: white;
+    font-size: 106.6px;
+    line-height: 106.6px;
+    margin-bottom: 100px;
+}
+.para-text{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    letter-spacing: normal;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.stroke {
+    color: transparent;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+}
+
+
+/* pointercards */
+
+.card-maindiv{
+    background-color: #0e1723;
+    border-radius: 20px;
+    border: 1px solid gray;
+    width: 450px;
+}
+
+.card-secdiv{
+    width: 200px;
+    height: 300px;
+}
+
+.card-imageflex{
+    width: 450px;
+}
+
+.card-hoverimage{
+    height: 300px !important;
+    width: 300px !important;
+}
+
+.card-title{
+    color : white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.card-description{
+    color: white;
+    padding: 20px;
+}
+
+.footer-maindiv{
+    padding: 0 5vw;
+    margin-bottom: 50vh;
+    margin-top: 150px;
+}
+
+.footer-heading{
+    font-size: 38.4px;
+    line-height: normal;
+    font-family: 'Anton', sans-serif;
+    text-align: start;
+    font-weight: 900;
+    letter-spacing: 1.536px;
+    margin-bottom: 10px;
+}
+
+.footer-text{
+    font-size: 25px;
+    line-height: 37.44px;
+    text-align: left;
+    letter-spacing: 1.248;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.footer-image{
+    height: 250px !important;
+    width: 250px !important;
+    margin-top: 100px !important;
+}
+
+.footer-10x{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.elites{
+    background-color: black;
+    width: 100%;
+    border: none;
+}
+
+.elite-button{
+    background-color: #0e1723;
+    color: #e7e7e7;
+    border: none;
+}
+
+.elite-button:hover{
+    background-color: #0e1723 !important;
+    color: #e7e7e7 !important;
+    border: none !important;
+}
+
+@media screen and (max-width: 1400px) {
+    .card-maindiv{
+        border-radius: 20px;
+        width: 375px;
+    }
+    
+    .card-secdiv{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .card-imageflex{
+        position: absolute;
+        width: 100%;
+    }
+    
+    .card-hoverimage{
+        height: 270px !important;
+        width: 270px !important;
+    }
+    .footer-10x{
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .hero-background {
+        height: 200vh;
+        width: auto;
+    }
+    
+    .hero-image{
+        height: auto !important;
+        width: 280px !important;
+        margin-right: 100px;
+    }
+
+    .hero-wrapper{
+        height: 140vh;
+    }
+
+    .main-content {
+        display: flex;
+        height: 100%;
+    }
+    
+    .image-container {
+        flex: 3;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 50px;
+    }
+    
+    .content-container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+    }
+    
+    .anton-heading {
+        font-size: 138px;
+        font-weight: 900;
+        line-height: 168px;
+    }
+    
+    .anton-heading+.anton-heading {
+        margin-top: -25px;
+    }
+
+    .anton-text {
+        padding: 0px;
+        font-size: 40px;
+        font-weight: 900;
+        margin: 0;
+        padding: 0px;
+    }
+    
+    .anton-text+.anton-text {
+        margin-top: -25px;
+    }
+
+    .about-section{
+        height: 170vh;
+        margin-top: -130px;
+        padding: 20px 40px;
+    }
+    
+    .background-text{
+        font-size: 288px;
+        letter-spacing: 9.6px;
+        margin-bottom: -200px;
+    }
+    
+    .background-covertext{
+        letter-spacing: -3px;
+        font-size: 76.8px;
+        margin-left: 40px;
+    }
+    
+    .background-covertext+.background-covertext {
+        margin-top: -45px;
+    }
+
+    
+    .para-text{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .card-maindiv{
+        border-radius: 20px;
+        width: 270px;
+    }
+    
+    .card-secdiv{
+        width: 200px;
+        height: 170px;
+    }
+    
+    .card-imageflex{
+        position: absolute;
+        width: 100%;
+    }
+    
+    .card-hoverimage{
+        height: 220px !important;
+        width: 220px !important;
+    }
+
+    .card-title{
+        color : white;
+        font-size: 30px;
+        font-weight: 900;
+        margin: 30px;
+    }
+    
+    .card-description{
+        color: white;
+        margin-top: -50px;
+        padding: 20px;
+    }
+
+    .footer-maindiv{
+        padding: 0 5vw;
+        margin-bottom: 50vh;
+        margin-top: 50px;
+    }
+
+    .footer-heading{
+        font-size: 28.4px;
+        line-height: normal;
+        font-family: 'Anton', sans-serif;
+        text-align: start;
+        font-weight: 900;
+        letter-spacing: 1.536px;
+        margin-bottom: 0px;
+    }
+
+    .footer-10x{
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+    .footer-text{
+        font-size: 13px;
+        line-height: 37.44px;
+        text-align: left;
+        letter-spacing: 1.248;
+        font-weight: 500;
+        margin-bottom: -15px;
+    }
+  }
+
+  @media screen and (max-width: 974px) {
+    .hero-background {
+        height: 200vh;
+        width: auto;
+    }
+    
+    .hero-image{
+        height: auto !important;
+        width: 240px !important;
+        margin-right: 100px;
+    }
+
+    .hero-wrapper{
+        height: 120vh;
+    }
+
+    .main-content {
+        display: flex;
+        height: 100%;
+    }
+    
+    .image-container {
+        flex: 3;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 50px;
+    }
+    
+    .content-container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+    }
+    
+    .anton-heading {
+        font-size: 108px;
+        font-weight: 900;
+        line-height: 168px;
+    }
+    
+    .anton-heading+.anton-heading {
+        margin-top: -55px;
+    }
+
+    .anton-text {
+        padding: 0px;
+        font-size: 30px;
+        font-weight: 900;
+        margin: 0;
+        padding: 0px;
+    }
+    
+    .anton-text+.anton-text {
+        margin-top: -20px;
+    }
+
+    .about-section{
+        height: 150vh;
+        margin-top: -70px;
+        padding: 20px 40px;
+
+    }
+
+    .anton-button{
+        margin-top: -10px;
+        width: 180px;
+        height: 60px;
+        font-size: 19.2px;
+        line-height: 28.8px;
+    }
+    
+    .background-text{
+        font-size: 288px;
+        letter-spacing: 9.6px;
+        margin-bottom: -200px;
+    }
+    
+    .background-covertext{
+        letter-spacing: -3px;
+        font-size: 76.8px;
+        margin-left: 40px;
+    }
+    
+    .background-covertext+.background-covertext {
+        margin-top: -45px;
+    }
+
+    
+    .para-text{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .card-maindiv{
+        border-radius: 20px;
+        width: 270px;
+    }
+    
+    .card-secdiv{
+        width: 200px;
+        height: 170px;
+    }
+    
+    .card-imageflex{
+        position: absolute;
+        width: 100%;
+    }
+    
+    .card-hoverimage{
+        height: 220px !important;
+        width: 220px !important;
+    }
+
+    .card-title{
+        color : white;
+        font-size: 30px;
+        font-weight: 900;
+        margin: 30px;
+    }
+    
+    .card-description{
+        color: white;
+        margin-top: -50px;
+        padding: 20px;
+    }
+
+    .footer-maindiv{
+        padding: 0 5vw;
+        margin-bottom: 50vh;
+        margin-top: 50px;
+    }
+
+    .footer-heading{
+        font-size: 28.4px;
+        line-height: normal;
+        font-family: 'Anton', sans-serif;
+        text-align: start;
+        font-weight: 900;
+        letter-spacing: 1.536px;
+        margin-bottom: 0px;
+    }
+
+    .footer-10x{
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+    .footer-text{
+        font-size: 13px;
+        line-height: 37.44px;
+        text-align: left;
+        letter-spacing: 1.248;
+        font-weight: 500;
+        margin-bottom: -15px;
+    }
+  }
+
+@media screen and (max-width : 860px) {
+
+    .desktop{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+    }
+
+    .hero-background {
+        height: 200vh;
+        width: auto;
+    }
+    
+    .hero-image{
+        height: auto !important;
+        width: 190px !important;
+        margin-right: 100px;
+    }
+
+    .hero-wrapper{
+        height: 120vh;
+    }
+
+    .main-content {
+        display: flex;
+        height: 100%;
+    }
+    
+    .image-container {
+        flex: 3;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 50px;
+    }
+    
+    .content-container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+    }
+    
+    .anton-heading {
+        font-size: 90px;
+        font-weight: 900;
+        line-height: 148px;
+    }
+    
+    /* .anton-heading+.anton-heading {
+        margin-top: -55px;
+    } */
+
+    .anton-text {
+        padding: 0px;
+        font-size: 25px;
+        font-weight: 900;
+        margin: 0;
+        padding: 0px;
+    }
+    
+    .anton-text+.anton-text {
+        margin-top: -20px;
+    }
+
+    .about-section{
+        height: 150vh;
+        margin-top: -80px;
+        padding: 20px 40px;
+    }
+
+    .anton-button{
+        margin-top: -10px;
+        width: 120px;
+        height: 40px;
+        font-size: 15.2px;
+        line-height: 28.8px;
+    }
+    
+    .background-text{
+        font-size: 218px;
+        letter-spacing: 9.6px;
+        margin-bottom: -200px;
+    }
+    
+    .background-covertext{
+        letter-spacing: -3px;
+        font-size: 55.8px;
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .background-covertext+.background-covertext {
+        margin-top: -45px;
+    }
+
+    .rules-section{
+        height: 350vh;
+        background-color: black;
+    }
+
+    .rules-text{
+        font-size: 250px;
+        line-height: 400px;
+        text-align: center;
+        color: #ffffff29;
+    }
+    
+    .rules-covertext{
+        color: white;
+        font-size: 90.6px;
+        line-height: 106.6px;
+        margin-bottom: 100px;
+    }
+    
+    .para-text{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .card-maindiv{
+        border-radius: 20px;
+        width: 400px;
+        margin-top: 20px;
+    }
+    
+    .card-secdiv{
+        width: 200px;
+        height: 250px;
+    }
+    
+    .card-imageflex{
+        position: absolute;
+        width: 100%;
+    }
+    
+    .card-hoverimage{
+        height: 220px !important;
+        width: 220px !important;
+    }
+
+    .card-title{
+        color : white;
+        font-size: 50px;
+        font-weight: 900;
+        margin-top: -30px;
+    }
+    
+    .card-description{
+        color: white;
+        margin-top: -20px;
+        padding: 20px;
+    }
+
+    .footer-maindiv{
+        padding: 0 5vw;
+        margin-bottom: 50vh;
+        margin-top: 70px;
+    }
+
+    .footer-image{
+        height: 190px !important;
+        width: 190px !important;
+        margin-top: 100px !important;
+    }
+
+    .footer-heading{
+        font-size: 28.4px;
+        line-height: normal;
+        font-family: 'Anton', sans-serif;
+        text-align: start;
+        font-weight: 900;
+        letter-spacing: 1.536px;
+        margin-bottom: 0px;
+    }
+
+    .footer-10x{
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+    .footer-text{
+        font-size: 13px;
+        line-height: 37.44px;
+        text-align: left;
+        letter-spacing: 1.248;
+        font-weight: 500;
+        margin-bottom: -15px;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .hero-background {
+        height: 200vh;
+        width: auto;
+    }
+    
+    .hero-image{
+        height: auto !important;
+        width: 130px !important;
+        margin-right: 100px;
+        padding-top: 30px;
+    }
+
+    .anton-heading {
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 128px;
+    }
+
+    .anton-text {
+        padding: 0px;
+        font-size: 18px;
+        font-weight: 900;
+        margin: 0;
+        padding: 0px;
+    }
+    
+    .anton-text+.anton-text {
+        margin-top: -12px;
+    }
+
+    .anton-button{
+        margin-top: -20px;
+        width: 80px;
+        height: 30px;
+        font-size: 12.2px;
+        line-height: 28.8px;
+    }
+
+    .about-section{
+        height: 120vh;
+        margin-top: -70px;
+        padding: 20px 40px;
+    }
+
+    .background-text{
+        font-size: 160px;
+        letter-spacing: 9.6px;
+        margin-bottom: -200px;
+    }
+    
+    .background-covertext{
+        letter-spacing: -3px;
+        font-size: 30.8px;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+    
+    .background-covertext+.background-covertext {
+        margin-top: -25px;
+    }
+
+    .rules-section{
+        height: 350vh;
+        background-color: black;
+    }
+
+    .rules-text{
+        font-size: 200px;
+        line-height: 400px;
+        text-align: center;
+        color: #ffffff29;
+    }
+    
+    .rules-covertext{
+        color: white;
+        font-size: 90.6px;
+        line-height: 106.6px;
+        margin-bottom: 100px;
+    }
+    
+    .para-text{
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+
+    .footer-maindiv{
+        padding: 0 5vw;
+        margin-bottom: 50vh;
+        margin-top: 85px;
+    }
+
+    .footer-image{
+        height: 190px !important;
+        width: 190px !important;
+        margin-top: 100px !important;
+        margin-right: 20px;
+    }
+
+    .footer-heading{
+        font-size: 18.4px;
+        line-height: normal;
+        font-family: 'Anton', sans-serif;
+        text-align: start;
+        font-weight: 900;
+        letter-spacing: 1.536px;
+        margin-bottom: 0px;
+    }
+
+    .footer-10x{
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+    .footer-text{
+        font-size: 10px;
+        line-height: 32.44px;
+        text-align: left;
+        letter-spacing: 1.248;
+        font-weight: 500;
+        margin-bottom: -15px;
+    }
+}
+
+@media screen and (max-width : 556px) {
+    .hero-background {
+        height: 200vh;
+        width: auto;
+    }
+    
+    .hero-image{
+        height: auto !important;
+        width: 100px !important;
+        margin-right: 100px;
+        padding-top: 30px;
+    }
+
+    .anton-heading {
+        font-size: 55px;
+        font-weight: 900;
+        line-height: 108px;
+    }
+
+    .anton-text {
+        padding: 0px;
+        font-size: 14px;
+        font-weight: 900;
+        margin: 0;
+        padding: 0px;
+    }
+    
+    .anton-text+.anton-text {
+        margin-top: -10px;
+    }
+
+    .anton-button{
+        margin-top: -20px;
+        width: 70px;
+        height: 25px;
+        font-size: 10.2px;
+        line-height: 28.8px;
+    }
+
+    .about-section{
+        height: 130vh;
+        margin-top: -45px;
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -10px;
+    }
+
+    .background-text{
+        font-size: 130px;
+        letter-spacing: 9.6px;
+        margin-bottom: -200px;
+    }
+    
+    .background-covertext{
+        letter-spacing: -3px;
+        font-size: 30.8px;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+    
+    .background-covertext+.background-covertext {
+        margin-top: -25px;
+    }
+
+    .rules-section{
+        height: 350vh;
+        background-color: black;
+    }
+
+    .rules-text{
+        font-size: 180px;
+        line-height: 400px;
+        text-align: center;
+        color: #ffffff29;
+    }
+    
+    .rules-covertext{
+        color: white;
+        font-size: 70.6px;
+        line-height: 106.6px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+    
+    .para-text{
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+
+    .card-maindiv{
+        border-radius: 20px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    
+    .card-secdiv{
+        width: 200px;
+        height: 150px;
+    }
+    
+    .card-imageflex{
+        position: absolute;
+        width: 100%;
+    }
+    
+    .card-hoverimage{
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+    .card-title{
+        color : white;
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: -40px;
+    }
+    
+    .card-description{
+        color: white;
+        margin-top: -20px;
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    .footer-maindiv{
+        padding: 0 5vw;
+        margin-bottom: 50vh;
+        margin-top: -50px;
+    }
+
+    .footer-image{
+        height: 140px !important;
+        width: 140px !important;
+        margin-top: 100px !important;
+        margin-right: 25px;
+    }
+
+    .footer-heading{
+        font-size: 16.4px;
+        line-height: normal;
+        font-family: 'Anton', sans-serif;
+        text-align: start;
+        font-weight: 900;
+        letter-spacing: 1.536px;
+        margin-bottom: 0px;
+    }
+
+    .footer-10x{
+        font-size: 8px;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+    .footer-text{
+        font-size: 9px;
+        line-height: 27.44px;
+        text-align: left;
+        letter-spacing: 1.248;
+        font-weight: 500;
+        margin-bottom: -15px;
+    }
+}
+
+
+@media screen and (max-width : 466px) {
+    .hero-background {
+        height: 200vh;
+        width: auto;
+    }
+    
+    .hero-image{
+        height: auto !important;
+        width: 80px !important;
+        margin-right: 100px;
+        padding-top: 30px;
+    }
+
+    .anton-heading {
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 94px;
+    }
+
+    .anton-text {
+        padding: 0px;
+        font-size: 10px;
+        font-weight: 900;
+        margin: 0;
+        padding: 0px;
+    }
+    
+    .anton-text+.anton-text {
+        margin-top: -5px;
+    }
+
+    .anton-button{
+        margin-top: -20px;
+        width: 50px;
+        height: 18px;
+        font-size: 8.2px;
+        line-height: 28.8px;
+    }
+
+    .about-section{
+        height: 90vh;
+        margin-top: -35px;
+        padding: 2px 30px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .background-text{
+        font-size: 90px;
+        letter-spacing: 9.6px;
+        margin-bottom: -200px;
+    }
+    
+    .background-covertext{
+        letter-spacing: 0px;
+        font-size: 20.8px;
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+    
+    .background-covertext+.background-covertext {
+        margin-top: -20px;
+    }
+
+    .rules-section{
+        height: 350vh;
+        background-color: black;
+    }
+
+    .rules-text{
+        font-size: 140px;
+        line-height: 400px;
+        text-align: center;
+        color: #ffffff29;
+    }
+    
+    .rules-covertext{
+        color: white;
+        font-size: 60.6px;
+        line-height: 106.6px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+    
+    .para-text{
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+
+    .card-maindiv{
+        border-radius: 20px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    
+    .card-secdiv{
+        width: 200px;
+        height: 150px;
+    }
+    
+    .card-imageflex{
+        position: absolute;
+        width: 100%;
+    }
+    
+    .card-hoverimage{
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+    .card-title{
+        color : white;
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: -40px;
+    }
+    
+    .card-description{
+        color: white;
+        margin-top: -20px;
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    .footer-maindiv{
+        padding: 0 5vw;
+        margin-bottom: 50vh;
+        margin-top: -50px;
+    }
+
+    .footer-image{
+        height: 140px !important;
+        width: 140px !important;
+        margin-top: 100px !important;
+        margin-right: 25px;
+    }
+
+    .footer-heading{
+        font-size: 13.4px;
+        line-height: normal;
+        font-family: 'Anton', sans-serif;
+        text-align: start;
+        font-weight: 900;
+        letter-spacing: 1.536px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .footer-10x{
+        font-size: 6px;
+        font-weight: 500;
+    }
+    .footer-text{
+        font-size: 7px;
+        line-height: 27.44px;
+        text-align: left;
+        letter-spacing: 1.248;
+        font-weight: 500;
+        margin-bottom: -15px;
+    }
+}
